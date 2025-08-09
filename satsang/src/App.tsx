@@ -13,7 +13,7 @@ export default function App() {
           <div className="logo">SM</div>
           <div>
             <h1>Satsang Management</h1>
-            <div className="kicker">Dashboard Panel</div>
+            <div className="kicker">Dashboard</div>
           </div>
         </div>
 
