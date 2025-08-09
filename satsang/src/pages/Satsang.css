@@ -1,0 +1,73 @@
+.satsang-container {
+  padding: 20px;
+  background: #f9f9fc;
+  border-radius: 8px;
+}
+
+.satsang-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.satsang-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.satsang-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.satsang-table th,
+.satsang-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.day-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-weight: bold;
+}
+
+.satsang-table select,
+.satsang-table input[type="time"] {
+  width: 100%;
+  padding: 4px;
+  font-size: 0.9rem;
+}
+
+.submit-btn {
+  background: #4cafef;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #379add;
+}

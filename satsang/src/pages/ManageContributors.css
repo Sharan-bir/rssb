@@ -1,0 +1,67 @@
+/* Manage contributors petite styling */
+.contrib-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:12px 14px;
+  border-radius:10px;
+  border:1px solid rgba(16,24,40,0.04);
+  background: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(250,252,255,0.6));
+}
+
+/* modal */
+.modal-backdrop{
+  position:fixed;inset:0;background:rgba(10,20,40,0.45);display:flex;align-items:center;justify-content:center;padding:18px;
+}
+.modal{max-width:720px;width:100%;padding:18px;border-radius:12px}
+
+
+/* Container */
+.filter-section {
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.filter-card {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  flex: 1;
+}
+
+/* Row layout */
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+/* Select styling */
+.filter-row select {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #e6eef9;
+  min-width: 160px;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+/* Button spacing fix */
+.filter-row .btn {
+  padding: 8px 14px;
+  font-size: 14px;
+}
+
+/* Ghost button styling */
+.btn-ghost {
+  background: transparent;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.btn-ghost:hover {
+  background: #f7f7f7;
+}

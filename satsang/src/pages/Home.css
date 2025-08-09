@@ -1,0 +1,27 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px; /* spacing between boxes */
+  justify-content: center; /* center align boxes */
+  margin-top: 60px;
+  /* width: auto; */
+}
+
+.row > * {
+  flex: 1 1 calc(33.333% - 18px); /* 3 per row */
+  max-width: calc(33.333% - 18px);
+}
+
+@media (max-width: 900px) {
+  .row > * {
+    flex: 1 1 calc(50% - 18px); /* 2 per row for tablet */
+    max-width: calc(50% - 18px);
+  }
+}
+
+@media (max-width: 600px) {
+  .row > * {
+    flex: 1 1 100%; /* 1 per row for mobile */
+    max-width: 100%;
+  }
+}

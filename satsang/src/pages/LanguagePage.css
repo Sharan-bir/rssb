@@ -1,0 +1,7 @@
+.card input, .card textarea{
+  width:100%;
+  padding:10px;border-radius:10px;border:1px solid #eef6ff;margin-top:6px;margin-bottom:12px;
+  outline:none;font-size:.95rem;
+}
+.card textarea{min-height:90px; resize:vertical}
+.label{font-weight:600;color:var(--muted);display:block;margin-top:8px}
